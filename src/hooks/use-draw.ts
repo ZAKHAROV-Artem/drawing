@@ -8,7 +8,6 @@ import {
 } from "react";
 import { useControls } from "./state";
 import { useShallow } from "zustand/react/shallow";
-import { isMobile } from "react-device-detect";
 
 export const useDraw = ({
   ref,
